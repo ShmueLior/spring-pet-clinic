@@ -1,8 +1,5 @@
 package guru.springframework.springpetclinic.services.map;
-
 import guru.springframework.springpetclinic.model.BaseEntity;
-import guru.springframework.springpetclinic.services.CrudService;
-
 import java.util.*;
 
 public abstract class AbstractMapService<T extends BaseEntity, ID extends Long> {
